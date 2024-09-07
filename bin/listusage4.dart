@@ -1,5 +1,4 @@
-// Write a program to create a list of integers. Then, print only the even numbers from the
-// list without using predefined functions.
+
 
 
 
