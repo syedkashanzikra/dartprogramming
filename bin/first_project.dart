@@ -1,7 +1,7 @@
 void main() {
 
  
-  var person1 = new Person("Kashan", 18);
+  var person1 = Person("Kashan", 18);
   person1.greet();
 }
 
