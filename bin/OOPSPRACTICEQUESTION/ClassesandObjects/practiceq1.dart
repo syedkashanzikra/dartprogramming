@@ -9,6 +9,6 @@ class Car {
 
 void main() {
   Car audia8 = Car("audi", "Audi A", "200");
-
+print(audia8.model);
   
 }
