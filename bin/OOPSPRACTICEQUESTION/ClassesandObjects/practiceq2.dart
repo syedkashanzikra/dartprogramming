@@ -17,8 +17,47 @@ class Rectangle {
   }
 }
 
+
+
+
+class Bank{
+  String? tradename;
+  int? numberofbranches;
+  String? accountholders;
+
+
+
+  Bank(this.tradename,this.numberofbranches,this.accountholders);
+
+
+  void bankinfo() {
+    print("Trade name is : ${tradename}");
+    print("Number of Branches is : ${numberofbranches}");   
+    print("Account holders  is : ${accountholders}");
+  }
+}
+
 void main() {
+  
+Bank bank1 = new Bank("Meezan", 45 , "450");
+bank1.bankinfo();
+
+
+Bank bank2 = new Bank("BAHL", 45 , "45");
+bank2.bankinfo();
+
+
+Bank bank3 = new Bank("HBL", 45 , "52");
+bank3.bankinfo();
+
+
   Rectangle r1 = Rectangle(15, 20);
 
   r1.calculateArea();
 }
+
+
+
+
+
+
